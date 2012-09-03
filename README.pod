@@ -1,0 +1,46 @@
+=pod
+
+=head1 NAME
+
+Bash::Completion::Plugins::Getopt::Long - Bash::Completion support for scripts that use Getopt::Long
+
+=head1 VERSION
+
+version 0.01
+
+=head1 SYNOPSIS
+
+ use parent 'Bash::Completion::Plugins::Getopt::Long';
+
+ # XXX details pending
+
+=head1 DESCRIPTION
+
+This is an abstract plugin superclass for L<Bash::Completion> plugins that
+wish to support scripts written with L<Getopt::Long> or can have their
+options specified using L<Getopt::Long>-style syntax.
+
+=head1 SEE ALSO
+
+L<Bash::Completion>, L<Getopt::Long>
+
+=head1 AUTHOR
+
+Rob Hoelz <rob@hoelz.ro>
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is copyright (c) 2012 by Rob Hoelz.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
+
+=head1 BUGS
+
+Please report any bugs or feature requests on the bugtracker website
+https://github.com/hoelzro/bash-completion-plugins-getopt-long/issues
+
+When submitting a bug or request, please include a test-file or a
+patch to an existing test-file that illustrates the bug or desired
+feature.
+
