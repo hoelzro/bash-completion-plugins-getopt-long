@@ -16,3 +16,8 @@ sub option_spec {
         '--opt-string:s',
     ];
 }
+
+# XXX what if we *want* to handle the non-option case?
+# XXX what about --?
+# XXX what about options that may or may not repeat?
+# XXX what about Getopt::Long::Configure?

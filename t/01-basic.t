@@ -29,6 +29,7 @@ $tester->check_completions('test-cmd --opt-string ^', ['foo']);
 $tester->check_completions('test-cmd --opt-string=foo ^', ['foo']);
 $tester->check_completions('test-cmd --opt-string foo ^', ['foo']);
 
+# XXX can we do --multi-string=...,...?
 $tester->check_completions('test-cmd --multi-string=^', []);
 $tester->check_completions('test-cmd --multi-string ^', []);
 $tester->check_completions('test-cmd --multi-string bar ^', []);
